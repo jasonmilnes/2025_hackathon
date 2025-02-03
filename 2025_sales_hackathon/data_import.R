@@ -28,7 +28,7 @@ suppressMessages({
 
 # Import datasets using paths relative to the target working directory
 df_500_companies <- read_csv("500_companies.csv")
-df_job_postings  <- read_csv("data_science_job_postings.csv")
+df_job_postings_geocoded  <- read_csv("data_science_job_postings_geocoded.csv")
 df_spotify_songs <- read_csv("most_streamed_spotify_songs_2024.csv")
 df_nfl_scores    <- read_csv("spreadspoke_scores.csv")
 
